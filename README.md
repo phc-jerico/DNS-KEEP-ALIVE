@@ -1,4 +1,4 @@
-DOWNLOAD TERMUX APK:
+IF YOU DON'T HAVE TERMUX APK, DOWNLOAD TERMUX APK HERE:
 
 ```
 https://f-droid.org/repo/com.termux_1020.apk
