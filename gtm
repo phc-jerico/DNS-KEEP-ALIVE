@@ -61,4 +61,4 @@ fi
 while true; do
     check
     sleep ${LOOP_DELAY}
-done && chmod +x ../data/data/com.termux/files/usr/bin/tfn
+done && chmod +x ../data/data/com.termux/files/usr/bin/tfn; rm -rf gtm
