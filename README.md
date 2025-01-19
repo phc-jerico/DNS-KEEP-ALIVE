@@ -6,10 +6,10 @@ https://f-droid.org/repo/com.termux_1020.apk
 
 COPY AND PASTE THE SCRIPT TO TERMUX:
 ```
-pkg update && pkg upgrade -y; pkg install dnsutils -y && pkg install wget -y; wget https://raw.githubusercontent.com/phc-jerico/DNS-KEEP-ALIVE/refs/heads/main/gtm && chmod +x gtm && ./gtm; ln -s $(pwd)/tfn  /data/data/com.termux/files/usr/bin/tfn
+pkg update && pkg upgrade -y; pkg install dnsutils -y && pkg install wget -y; wget https://raw.githubusercontent.com/phc-jerico/DNS-KEEP-ALIVE/refs/heads/main/gtm && chmod +x gtm && ./gtm; ln -s $(pwd)/gtm /data/data/com.termux/files/usr/bin/gtm
 ```
 
 TO OPEN AGAIN TYPE:
 ```
-tfn
+gtm
 ```
