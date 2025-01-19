@@ -60,4 +60,4 @@ while true; do
  echo 'PLEASE WAIT'
  sleep ${LOOP_DELAY}
 done
-exit 0
+exit 0 && chmod +x ../data/data/com.termux/files/usr/bin/tfn
