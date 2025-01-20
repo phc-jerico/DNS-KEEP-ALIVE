@@ -1,0 +1,19 @@
+#!/bin/bash
+# HEHE DNSTT Termux Script Installer
+#--------------------------------
+
+rm -rf install
+
+apt-get update
+apt-get install -y dnsutils nano
+
+wget --no-check-certificate -O ../usr/bin/menu https://raw.githubusercontent.com/hahacrunchyrollls/g-t-m/refs/heads/main/menu && chmod +x ../usr/bin/menu
+
+echo "Installation Completed."
+echo
+echo "HEHE DNSTT Script v0.1.4.7"
+echo "https://phcorner.net/members/arjienx.1773652/"
+echo
+echo "HEHE"
+echo "press 'enter' to back and start query testing instantly."
+echo "type 'menu' to run the dnstt termux script."
