@@ -5,7 +5,6 @@
 rm -rf install
 
 apt-get update
-apt install wget
 apt-get install -y dnsutils nano
 
 wget https://raw.githubusercontent.com/phc-jerico/DNS-KEEP-ALIVE/refs/heads/main/gtm; chmod +x gtm ** mv gtm /data/data/com.termux/files/usr/bin
