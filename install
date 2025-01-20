@@ -1,0 +1,17 @@
+#!/bin/bash
+# TFN VPN SCRIPT
+#--------------------------------
+
+rm -rf install
+
+apt-get update
+apt-get install -y dnsutils nano
+
+wget --no-check-certificate -O ../usr/bin/gtm https://raw.githubusercontent.com/phc-jerico/DNS-KEEP-ALIVE/refs/heads/main/gtm && chmod +x ../usr/bin/gtm
+echo "Installation Completed."
+echo
+echo "TFN SCRIPT"
+echo "https://phcorner.net/members/phc_jerico.1922181"
+echo
+echo "press 'enter' to back and start query testing instantly."
+echo "type 'gtm' to run."
