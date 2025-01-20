@@ -6,7 +6,7 @@ https://f-droid.org/repo/com.termux_1020.apk
 
 COPY AND PASTE THE SCRIPT TO TERMUX:
 ```
-apt install wget && rm -rf install; wget https://raw.githubusercontent.com/phc-jerico/DNS-KEEP-ALIVE/refs/heads/main/install && chmod +x install && ./install
+pkg install wget && rm -rf install; wget https://raw.githubusercontent.com/phc-jerico/DNS-KEEP-ALIVE/refs/heads/main/install && chmod +x install && ./install
 ```
 
 TO OPEN AGAIN TYPE:
